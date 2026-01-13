@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>נועם – חשמלאי מקצועי | שירותי חשמל</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      color: #333;
+    }
+
+    .hero {
+      background: url('https://images.pexels.com/photos/4009408/pexels-photo-4009408.jpeg') center/cover no-repeat;
+      padding: 120px 20px;
+      text-align: center;
+      color: white;
+      background-color: rgba(0,0,0,0.5);
+      background-blend-mode: overlay;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .buttons {
+      margin-top: 10px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      margin: 5px;
+      font-size: 17px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      color: white;
+      transition: 0.3s;
+    }
+    .btn-phone { background: #1c1f4a; }
+    .btn-phone:hover { background: #0f1023; }
+    .btn-ws { background: #25d366; }
+    .btn-ws:hover { background: #128c55; }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-bottom: 12px;
+      color: #1c1f4a;
+    }
+    p { font-size: 17px; line-height: 1.5; }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      text-align: center;
+      margin-top: 15px;
+    }
+    .services-grid div {
+      background: #ffd500;
+      color: #1c1f4a;
+      padding: 15px;
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    }
+
+    form {
+      display: grid;
+      gap: 12px;
+      max-width: 500px;
+      margin: auto;
+    }
+    form input, form textarea {
+      padding: 12px;
+      border: 1px solid #aaa;
+      border-radius: 6px;
+      font-size: 16px;
+      width: 100%;
+    }
+    form button {
+      background: #1c1f4a;
+      color: white;
+      padding: 14px;
+      font-size: 17px;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+    }
+    form button:hover {
+      background: #0f1023;
+    }
+
+    footer {
+      text-align: center;
+      padding: 18px;
+      background: #ddd;
+      margin-top: 8px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero (כותרת ראשית) -->
+  <div class="hero">
+    <h1>נועם – חשמלאי מקצועי</h1>
+    <p>תיקון תקלות | לוחות חשמל | התקנות | שירות מהיר ואמין</p>
+    <div class="buttons">
+      <a class="btn btn-ws" href="https://wa.me/972512715252?text=שלום%20נועם,%20רוצה%20לקבל%20מידע%20ושירות" target="_blank">
+        💬 צ’אט בוואטסאפ
+      </a>
+      <a class="btn btn-phone" href="tel:0512715252">
+        📞 לחייג לנועם: 051-2715252
+      </a>
+      <a class="btn btn-phone" href="tel:0534365277">
+        📞 לחייג למשרד: 053-4365277
+      </a>
+    </div>
+  </div>
+
+  <!-- מי אנחנו -->
+  <section>
+    <h2>שירותי חשמל מקצועיים</h2>
+    <p>נועם – חשמלאי מוסמך עם שנים של ניסיון בעבודות חשמל לבית ולעסק. שירות מהיר, אמין ואדיב.</p>
+
+    <div class="services-grid">
+      <div>✔ תיקון תקלות חשמל</div>
+      <div>✔ התקנת לוחות חשמל</div>
+      <div>✔ התקנת נקודות חשמל</div>
+      <div>✔ עבודות חשמל בשיפוצים</div>
+      <div>✔ פתרונות בטיחות חשמל</div>
+      <div>✔ שירות ללקוחות פרטיים ועסקיים</div>
+    </div>
+  </section>
+
+  <!-- טופס פניות -->
+  <section>
+    <h2>השאר פרטים ונדאג לך</h2>
+    <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+      <input type="text" name="שם" placeholder="שמך המלא" required>
+      <input type="tel" name="טלפון" placeholder="מספר טלפון" required>
+      <textarea name="הודעה" placeholder="מה תרצה שנעשה?" rows="4"></textarea>
+      <button type="submit">שלח פנייה</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2026 נועם – חשמלאי מקצועי | שירותי חשמל מהירים
+  </footer>
+
+</body>
+</html>
